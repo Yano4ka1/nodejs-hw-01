@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-hw-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yano4ka1/nodejs-hw-01.git"
+  },
+  "author": "Yano4ka1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yano4ka1/nodejs-hw-01/issues"
+  },
+  "homepage": "https://github.com/Yano4ka1/nodejs-hw-01#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+
+  "dependencies": {
+    "commander": "^9.4.1",
+    "uid": "^2.0.1"
+  }
+}
